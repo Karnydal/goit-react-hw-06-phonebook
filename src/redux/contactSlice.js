@@ -35,6 +35,6 @@ export const contactsPersistedReducer = persistReducer(
 );
 
 export const selectedFilter = state => state.contacts.filter;
-export const selectedContacts = state => state.contacts.item;
+export const selectedContacts = state => state.contacts.items;
 
 export const { filter, pushContact, removeContact } = contactSlice.actions;
